@@ -21,7 +21,8 @@ module.exports = {
     'react/prop-types': ['warn', {skipUndeclared: true}],
     'react/jsx-no-target-blank': 'warn',
     'react/no-unescaped-entities': false,
-    'react/display-name': false
+    'react/display-name': false,
+    'react/no-unused-prop-types': 'warn'
   },
   globals: {
     shallow: false,
